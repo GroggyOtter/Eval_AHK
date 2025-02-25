@@ -40,13 +40,16 @@ There is only one property to set.
 * `decimal_type`: Allows for setting the type of decimal place used in the expression, such as `.` or `,`.  
   Default is a period `.`
 
+
+
 # Operator support
 [`Back To Top`](#eval-class-for-autohotkey-v2)
 
-Currently, the only operators supported are:
+Currently, the the basic math operators are supported:
 
   * `( ... )` : Parentheses or sub-expressions
   * `**` : Powers / Exponentiation
+  * `*` : Multiplication
   * `//` : Integer division
   * `/` : True division
   * `+` : Addition
@@ -55,9 +58,10 @@ Currently, the only operators supported are:
 # Number support
 [`Back To Top`](#eval-class-for-autohotkey-v2)
 
-Floats are allowed.  
-Negative numbers are allowed.  
-Scientific notation is not yet supported.
+* Integers are allowed: `123`
+* Floats are allowed: `3.14156`
+* Negative numbers are allowed: `-22.22`
+* Scientific notation is **not** supported:  `1e12`  
 
 # Example Code
 
