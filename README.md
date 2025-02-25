@@ -17,8 +17,10 @@ To evaluate something, pass the string directly to the class.
 
     str := '3+8/4+1'
     num := Eval(str)
+
+    ; Shows 3+8/4+1 = 6
     MsgBox(str ' = ' num)
-    
+
 Currently, the only operators supported are:
 
   * `( ... )` : Parentheses or sub-expressions
