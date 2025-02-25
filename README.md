@@ -18,7 +18,7 @@ This class allows for strings containing basic math expressions to be mathematic
 Passing in a string like this: `"2 + 2"`  
 Will return a number like this: `4`  
 
-I may expand on its operator and number supporter later, but for now it's functional for basic expressions.
+I may expand on its [operator support](#operator-support) and [number support](#number-support) later on, but for now it's functional for basic expressions.
 
 # Use
 [`Back To Top`](#eval-class-for-autohotkey-v2)
